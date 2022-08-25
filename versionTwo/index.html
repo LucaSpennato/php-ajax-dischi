@@ -13,6 +13,7 @@
     <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
     <!-- axios -->
     <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+
     <title>Document</title>
 </head>
 <body>
@@ -20,7 +21,31 @@
     
     <div id="app">
         
-        
+        <header>
+            <div>
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Spotify_logo_without_text.svg/2048px-Spotify_logo_without_text.svg.png" alt="brand logo">
+            </div>
+        </header>
+
+        <main>
+            <div class="container">
+                <div class="row col-10 m-auto py-5">
+                    <div class="ms_card col-2" v-for="disk in disks">
+                        <img class="img-fluid" 
+                        :src="disk.poster" :alt="disk.author + '\'s' + ' song' ">
+                        <h5>
+                            {{ disk.title }}
+                        </h5>
+                        <div>
+                            {{ disk.author }}
+                        </div>
+                        <div>
+                            {{ disk.year }}
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
         
     </div>
 

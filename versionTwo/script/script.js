@@ -8,7 +8,7 @@ const app = new Vue({
             axios.get('http://localhost/php-ajax-dischi/versionTwo/controller/controller.php')
             .then((response) =>{
                 this.disks = response.data;
-                console.log(this.disks);
+                console.log(response);
             })
         }
     },
