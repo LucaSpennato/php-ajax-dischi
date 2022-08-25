@@ -2,6 +2,15 @@ body{
     background-color: #1E2D3B;
 }
 
+header{
+    background-color: black;
+    padding: 1rem;
+}
+
+header div img{
+    height: 3rem;
+}
+
 .ms_card{
     color: white;
     background-color: #2E3A46;
