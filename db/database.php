@@ -13,5 +13,5 @@
             'author' => 'Quenn',
             'genre' => 'Pop',
             'year' => '1992',
-        ]
+        ],
     ];

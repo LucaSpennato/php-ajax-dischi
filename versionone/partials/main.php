@@ -1,5 +1,5 @@
 <?php
-    include __DIR__ . '/../db/database.php';
+    include __DIR__ . '/../../db/database.php';
 ?>
 
 <main>
