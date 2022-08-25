@@ -3,5 +3,7 @@
 ?>
 
 <main>
-    ciao sono il main
+    <?php
+        echo $disks[0]['title'];
+    ?>
 </main>
