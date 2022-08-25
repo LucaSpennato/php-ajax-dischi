@@ -2,7 +2,7 @@
     include __DIR__ . '/../../db/database.php';
 ?>
 
-<main class="bg-dark">
+<main>
     <div class="container">
         <div class="row col-10 m-auto py-5">
 
@@ -14,7 +14,7 @@
                 $year = $disk['year'];  
             ?>
 
-                <div class="col-2 text-light">
+                <div class="ms_card col-2">
 
                     <img class="img-fluid" src="<?php echo $img; ?>" 
                         alt="<?php echo $author . "'s song"; ?>"
